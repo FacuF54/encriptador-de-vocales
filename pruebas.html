@@ -1,0 +1,39 @@
+<html lang="esp">
+
+<head>
+    <title>Encriptador y Desencriptador</title>
+    <Link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header class="titulo">
+        <h1 >Encriptador y Desencriptador de Vocales</h1>
+    </header>
+    <form class="form" action="">
+        
+            <section class="content">
+
+                <section class="divEntrada">
+                    <textarea class="textAreaSalida" name="textarea" id="inputEncrip" cols="30" rows="20"></textarea>
+                </section>
+    
+                <section class="divSalida">
+        
+                    <textarea class="textAreaSalida" name="text" id="outputSalida" cols="30" rows="20"></textarea>
+                </section>
+            </section>
+            <section class="divBtn">
+                
+                <input class="btnCopy" type="button" value="Copiar" onclick="copyTextDesencriptado()" />
+                <input class="btnCopy" type="button" value="Desencriptar" onclick="desencriptar()"/>
+                
+                <input class="btnCopy" type="button" value="Encriptar" onclick="encriptar()" />
+            </section>
+     
+        
+    </form>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
